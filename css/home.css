@@ -1,0 +1,47 @@
+.main-hero-section{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./../images/home-bg-petra.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.highted-word{
+    color: #A8DF8E;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+   
+    
+}
+.highted-text{
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     gap: 5px;
+}
+
+.main-content{
+    color:#DA3D20;
+    
+    margin-left:8.5%;
+    margin-top: 40px;
+}
+.sub-content{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.main-info{
+   width: 600px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.destination-container{
+    background-color: white;
+    width: 650px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
