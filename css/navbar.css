@@ -1,0 +1,30 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main-logo-img{
+    height: 90px;
+    width: 90px;
+}
+.website-name{
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.nav-item{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-weight: 600;
+}
