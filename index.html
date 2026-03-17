@@ -1,51 +1,128 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-     <title>pilgrim-era</title>
-     <link rel="stylesheet" href="./css/style.css" />
-     <link rel="stylesheet" href="./css/navbar.css"/>
-     <link rel="stylesheet" href="./css/home.css"/>
-
-</head>
-<body>
+  <head>
+    <title>pilgrim-era</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/home.css" />
+  </head>
+  <body>
     <div class="main-hero-section">
+      <!-- Navbar -->
       <div class="main-container">
         <div class="img-container">
-            <img src="./images/main-logo.png" alt="logo" class="main-logo-img"/>
-            <h1 class="website-name">Pilgrim <span style="color:#DA3D20;">Era</span></h1>
+          <img src="./images/main-logo.png" alt="logo" class="main-logo-img" />
+          <h1 class="website-name">
+            Pilgrim <span style="color: #da3d20">Era</span>
+          </h1>
         </div>
         <div class="nav-menu">
-            <a href="index.html" class="nav-item">Home</a>
-            <a href="./pages/destination.html" class="nav-item">Destination</a>
-            <a href="" class="nav-item">PlanTrip</a>
-            <a href="" class="nav-item">About</a>
-            <a href="" class="nav-item">Contact</a>
+          <a href="index.html" class="nav-item">Home</a>
+          <a href="./pages/destination.html" class="nav-item">Destination</a>
+          <a href="" class="nav-item">PlanTrip</a>
+          <a href="" class="nav-item">About</a>
+          <a href="" class="nav-item">Contact</a>
         </div>
         <div class="nav-menu">
-            <a href="" class="nav-item">Login</a>
-            <a href="" class="nav-item">Sign Up</a>
+          <a href="" class="nav-item">Login</a>
+          <a href="" class="nav-item">Sign Up</a>
         </div>
       </div>
-    
+
+      <!-- Main-content -->
       <div class="main-content">
-          <div class="highted-word">
-        <span class="highted-text"><img src="./images/explore.svg" alt="expore-icon" height="15px"/> EXPLORE</span>
-        <span class="highted-text"><img src="./images/experience.svg" alt="experience-icon" height="15px"/> EXPERIENCE</span>
-        <span class="highted-text"><img src="./images/enjoy.svg" alt="enjoy-icon" height="15px"/> ENJOY</span>
-           </div>
-        <div class="sub-content">
-            <span style="color: white;">Plan Your</span><br/>Perfect Yatra
+        <div class="highted-word">
+          <span class="highted-text"
+            ><img src="./images/explore.svg" alt="expore-icon" height="15px" />
+            EXPLORE</span
+          >
+          <span class="highted-text"
+            ><img
+              src="./images/experience.svg"
+              alt="experience-icon"
+              height="15px"
+            />
+            EXPERIENCE</span
+          >
+          <span class="highted-text"
+            ><img src="./images/enjoy.svg" alt="enjoy-icon" height="15px" />
+            ENJOY</span
+          >
         </div>
-        <div style="color: white;" class="main-info">
-          Discover the best place to visit, things to do,and local experiences to make your trip unforgottable.Enjoy a seamless travel planning experience with our user-friendly interface and personalized recommendation.
+        <div class="sub-content">
+          <span style="color: white">Plan Your</span><br />Perfect Yatra
+        </div>
+        <div style="color: white" class="main-info">
+          Discover the best place to visit, things to do,and local experiences
+          to make your trip unforgottable.Enjoy a seamless travel planning
+          experience with our user-friendly interface and personalized
+          recommendation.
         </div>
         <div class="destination-container">
-          <input type="text" placeholder="Search for destinations,acivitives and experiences"/>
-          <input type="date"/>
-          <input type="text" placeholder="Number of travellers"/>
-          <button>Search</button>
+          <div class="destination-item-container">
+            <img
+              src="./images/location-home.svg"
+              alt="location-icon"
+              height="15px"
+            />
+            <input
+              class="destination-input"
+              type="text"
+              placeholder="Search for destinations,acivitives and experiences"
+            />
+          </div>
+          <div class="destination-item-container">
+            <img src="./images/date-home.svg" alt="date-icon" height="15px" />
+            <input type="date" class="destination-input" />
+          </div>
+          <div class="destination-item-container">
+            <img
+              src="./images/people-home.svg"
+              alt="people-icon"
+              height="15px"
+            />
+            <input
+              type="text"
+              placeholder="Number of travellers"
+              class="destination-input"
+            />
+          </div>
+          <div class="destination-item-container">
+            <img
+              src="./images/search-home.svg"
+              alt="search-icon"
+              height="15px"
+            />
+            <button class="btn-search">Search</button>
+          </div>
+        </div>
+        <div class="recommendation">
+          <div class="recommendation-items">
+            <span class="recommendation-count">500+</span>
+            <span>Destinations</span>
+          </div>
+          <div class="recommendation-items">
+            <span class="recommendation-count">30K+</span>
+            <span>Happy Travellers</span>
+          </div>
+          <div class="recommendation-items">
+            <span class="recommendation-count">15+</span>
+            <span>Experiences</span>
+          </div>
+          <div class="recommendation-items">
+            <span class="recommendation-count"
+              >4.2
+              <img src="./images/satr-home.svg" alt="star-icon" height="18px"
+            /></span>
+            <span>Average Rating</span>
+          </div>
         </div>
       </div>
+
+      <!--Destinations section  -->
+      <div>
+        
+      </div>
     </div>
-</body>
+  </body>
 </html>

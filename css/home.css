@@ -19,7 +19,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-     gap: 5px;
+    gap: 5px;
 }
 
 .main-content{
@@ -44,4 +44,48 @@
     padding: 10px;
     border-radius: 20px;
     margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.destination-item-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.destination-input{
+    border: none;
+    outline:none;
+    margin-left: 5px;
+
+}
+.btn-search{
+    border-radius: 10px;
+    padding: 2px 6px;
+    background-color: rgb(72, 72, 184);
+    color: white;
+}
+.recommendation{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-top: 50px;
+    gap: 50px;
+    margin-left: 5px;
+
+}
+.recommendation-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+.recommendation-count{
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
