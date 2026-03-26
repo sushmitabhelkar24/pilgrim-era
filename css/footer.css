@@ -1,0 +1,17 @@
+.main-footer-section{
+   background-color:rgb(107, 106, 106);
+   width:100%;
+   height: 250px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   margin-top: 50px;
+   color: white;
+}
+.footer-info-container-first{
+     width:500px
+}
+.footer-info-container{
+    width:150px;
+    margin-top: 30px;
+}
