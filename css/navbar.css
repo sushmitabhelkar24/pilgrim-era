@@ -3,6 +3,11 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    top:0;
+    left:0;
+    right: 0;
+    position:fixed;
+    background-color: rgba(0,0,0,0.55);
 }
 .img-container{
     display: flex;
@@ -29,4 +34,40 @@
     font-size: 18px;
     color: white;
     font-weight: 1000;
+}
+.nav-item:hover{
+    color:#DA3D20;
+}
+.hamburger-menu{
+    display:none;
+    cursor: pointer;
+}
+.toogle-menu{
+    display:none
+}
+@media screen and (max-width:768px){
+    .main-container{
+        flex-wrap: wrap;
+    }
+    .nav-menu{
+        display: none;
+        flex-direction: column;
+        gap:10px;
+        width:100%;
+        text-align:center;
+        font-size: 18px;
+    }
+    .hamburger-menu{
+       display:block;
+    }
+    .toogle-menu:checked ~ .nav-menu{
+        display: flex;
+    }
+    .toogle-menu:checked ~ .hamburger-menu{
+        content: 'x';
+    }
+    .nav-item{
+        padding: 10px 0px;
+    }
+
 }

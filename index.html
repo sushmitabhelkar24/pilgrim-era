@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pilgrim-era</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/navbar.css" />
@@ -17,6 +19,13 @@
             Pilgrim <span style="color: #da3d20">Era</span>
           </h1>
         </div>
+      
+        <input type="checkbox" id="toogle-menu" class="toogle-menu" />
+        <label for="toogle-menu" class="hamburger-menu">
+          <img src="./images/hamburger.svg" alt="hamburger" height="28px"/>
+        </label>
+
+
         <div class="nav-menu">
           <a href="index.html" class="nav-item">Home</a>
           <a href="./pages/destination.html" class="nav-item">Destination</a>
@@ -28,6 +37,7 @@
           <a href="" class="nav-item">Login</a>
           <a href="" class="nav-item">Sign Up</a>
         </div>
+   
       </div>
 
       <!-- Main-content -->
@@ -83,7 +93,7 @@
               height="15px"
             />
             <input
-              type="text"
+              type="number"
               placeholder="Number of travellers"
               class="destination-input"
             />
@@ -124,7 +134,7 @@
       <div class="destination-section">
         <span class="destination-section-heading">Popular Destinations</span
         ><br />
-        <span style="opacity: 0.9"
+        <span style="opacity: 0.9" class="destination-para"
           >Explore the best tourist places you desire for,with full of
           adventure</span
         >

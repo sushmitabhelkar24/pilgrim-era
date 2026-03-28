@@ -9,9 +9,22 @@
    color: white;
 }
 .footer-info-container-first{
-     width:500px
+     width:580px
 }
 .footer-info-container{
-    width:150px;
+    width:120px;
     margin-top: 30px;
+}
+@media screen  and (max-width:768px){
+    .main-footer-section{
+        flex-direction: column;
+        height: auto;
+        padding: 20px 16px;
+    }
+    .footer-info-container-first{
+     width:100%
+    }
+    .footer-info-container{
+        width: 100%;
+    }
 }

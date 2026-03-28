@@ -2,7 +2,7 @@
     background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("./../images/home-bg-petra.jpg");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
 }
 .highted-word{
     color: #A8DF8E;
@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: row;
     margin-bottom: 20px;
+    padding-top: 30px;
 }
 .highted-text{
     margin-right: 10px;
@@ -23,7 +24,7 @@
 .main-content{
     color:#DA3D20;
     margin-left:8.5%;
-    margin-top: 40px;
+    margin-top: 100px;
 }
 .sub-content{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -96,7 +97,7 @@
 }
 .destination-section-heading{
     font-size: 35px;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 .destination-section-items{
     display: flex;
@@ -268,4 +269,59 @@
    padding: 5px;
     border-radius: 50%;
     background-color:#f2b2a6 ;
+}
+@media screen and (max-width:768px){
+  .sub-content{
+    font-size: 38px;
+  }
+  .main-info{
+    width: 100%;
+    font-size: 16px;
+  }
+  .destination-container{
+    flex-direction: column;
+    width: 90%;
+    align-items: start;
+    }
+    .destination-item-container{
+        width: 100%;
+    }
+   .destination-input{
+    width: 100%;
+   }
+ 
+  .recommendation{
+    flex-wrap: wrap;
+   }
+   .destination-section{
+    margin-top:100px;
+   }
+.destination-section-heading{
+    font-size: 20px;
+   
+}
+.destination-para{
+    font-size: 16px;
+    padding: 0px 20px;
+   
+}
+.destination-section-items{
+    flex-direction: column;
+  
+}
+.work-section{
+    margin-top: 20px;
+}
+.work-section-heading{
+    font-size: 20px;
+}
+.work-section-description{
+    font-size: 14px;
+    padding: 0px 20px;
+}
+.work-section-info-container{
+    flex-direction: column;
+}
+
+
 }
