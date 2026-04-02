@@ -15,6 +15,12 @@
             <img src="./../images/main-logo.png" alt="logo" class="main-logo-img"/>
             <h1 class="website-name">Pilgrim <span style="color:#DA3D20;">Era</span></h1>
         </div>
+
+          <input type="checkbox" id="toogle-menu" class="toogle-menu" />
+        <label for="toogle-menu" class="hamburger-menu">
+          <img src="./../images/hamburger.svg" alt="hamburger" height="28px"/>
+        </label>
+
         <div class="nav-menu">
             <a href="./../index.html" class="nav-item">Home</a>
             <a href="./destination.html" class="nav-item">Destination</a>
@@ -28,16 +34,54 @@
         </div>
     </div>
 
-
-    <section class="destination-main">
-        <div>
-
-        </div>
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Create Your Perfect Trip</h1>
+        <p>Tell us your preferences and start planning your dream vacation</p>
     </section>
 
-    
+    <!-- Plan Trip Form -->
+    <section class="form-section">
+        <form class="trip-form">
 
-   
+            <label for="select">Destination</label>
+            <select id="select" required>
+                <option value="">Select Destination</option>
+                <option>Paris, France</option>
+                <option>Bali, Indonesia</option>
+                <option>Tokyo, Japan</option>
+                <option>Dubai, UAE</option>
+                <option>New York, USA</option>
+                <option>Rome, Italy</option>
+                <option>Sydney, Australia</option>
+                <option>Cairo, Egypt</option>
+                <option>Rio de Janeiro, Brazil</option>
+            </select>
+
+            <label for="date">Start Date</label>
+            <input id="date" type="date" required>
+
+            <label for="start">End Date</label>
+            <input id="start" type="date" required>
+
+            <label for="people">Number of Travelers</label>
+            <input id="people" type="number" min="1" placeholder="Enter number" required>
+
+            <label for="range">Budget Range</label>
+            <select id="range">
+                <option>Low Budget</option>
+                <option>Medium Budget</option>
+                <option>Luxury</option>
+            </select>
+
+            <label for="request">Special Requests / Notes</label>
+            <textarea id="request" rows="4" placeholder="Add preferences, activities, hotel type..."></textarea>
+
+            <button type="submit">Generate Trip Plan</button>
+
+        </form>
+    </section>
+
       <!-- Footer -->
 
       <div class="main-footer-section">

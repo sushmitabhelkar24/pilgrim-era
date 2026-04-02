@@ -15,12 +15,18 @@
             <img src="./../images/main-logo.png" alt="logo" class="main-logo-img"/>
             <h1 class="website-name">Pilgrim <span style="color:#DA3D20;">Era</span></h1>
         </div>
+
+        <input type="checkbox" id="toogle-menu" class="toogle-menu" />
+        <label for="toogle-menu" class="hamburger-menu">
+          <img src="./../images/hamburger.svg" alt="hamburger" height="28px"/>
+        </label>
+
         <div class="nav-menu">
             <a href="./../index.html" class="nav-item">Home</a>
             <a href="./destination.html" class="nav-item">Destination</a>
             <a href="./plantrip.html" class="nav-item">PlanTrip</a>
             <a href="./about.html" class="nav-item">About</a>
-            <a href="./contact.html" class="nav-item">Contact</a>
+            <a href="contact.html" class="nav-item">Contact</a>
         </div>
         <div class="nav-menu">
             <a href="./login.html" class="nav-item">Login</a>
@@ -29,11 +35,59 @@
     </div>
 
 
-    <section class="contact-main">
-        <div>
+  
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Contact Us</h1>
+        <p>We’d love to hear from you. Get in touch with us!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+
+        <div class="contact-container">
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter your name" required>
+
+                    <label>Email Address</label>
+                    <input type="email" placeholder="Enter your email" required>
+
+                    <label>Subject</label>
+                    <input type="text" placeholder="Subject">
+
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Write your message..." required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong><a href="travelworld23@gmail.com" style="text-decoration: none;"> travelworld23@gmail.com</a></p>
+                <p><strong>Phone:</strong><a href="tel:+91 8723455234" style="text-decoration: none;">+91 8723455234</a></p>
+                <p><strong>Address:</strong><a href="https://maps.app.goo.gl/tefS2K4EFeZtuiAq8" target="_main" style="text-decoration: none;"> Sadar,Nagpur,Maharashtra</a></p>
+
+                <h3>Business Hours</h3>
+                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                <p>Saturday: 10:00 AM - 4:00 PM</p>
+                <p>Sunday: Closed</p>
+            </div>
 
         </div>
+
     </section>
+
+
+   
 
     
 
@@ -64,12 +118,12 @@
         </div>
         <div class="footer-info-container">
           <span class="footer-heading">Quick Links</span><br />
-          <a href="index.html" class="footer-link">Home</a><br />
-          <a href="" class="footer-link">Destination</a
+          <a href="./../index.html" class="footer-link">Home</a><br />
+          <a href="./destination.html" class="footer-link">Destination</a
           ><br />
-          <a href="" class="footer-link">PlanTrip</a><br />
-          <a href="" class="footer-link">About</a><br />
-          <a href="" class="footer-link">Contact</a><br />
+          <a href="./plantrip.html" class="footer-link">PlanTrip</a><br />
+          <a href="./about.html" class="footer-link">About</a><br />
+          <a href="contact.html" class="footer-link">Contact</a><br />
         </div>
         <div class="footer-info-container">
           <span>Top Destinations</span>
