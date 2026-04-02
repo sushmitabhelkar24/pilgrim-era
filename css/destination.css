@@ -144,3 +144,53 @@ button:hover {
   background-color: rgb(18, 18, 83);
 }
 
+@media screen and (max-width:768px){
+  .destination-card {
+  display: flex;
+  flex-direction: column;
+  height: 470px;
+}
+.destination-card img {
+  width: 100%;
+  object-fit: cover;
+  height: 150px;
+}
+.destination-content {
+  padding: 5px;
+  width: 100%;
+}
+.destination-content h2 {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.location {
+  margin-bottom: 5px;
+  color: gray;
+}
+
+.description {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.highlights {
+  margin-bottom: 15px;
+}
+
+.highlights li {
+  margin-bottom: 4px;
+}
+
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: #DA3D20;
+}
+
+button {
+  padding: 10px 16px;
+}
+
+}
+
